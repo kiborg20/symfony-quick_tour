@@ -24,7 +24,6 @@ class Product
      * @ORM\Column(type="string")
      */
     private $price;
-
-    // ...
+    
 }
 ?>
