@@ -37,7 +37,6 @@
         "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
-        "symfony/web-server-bundle": "^4.4.2"
     },
     "config": {
         "optimize-autoloader": true,
