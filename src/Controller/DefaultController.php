@@ -28,5 +28,16 @@ class DefaultController extends AbstractController
     {
         return new Response('Просто! Легко! Прекрасно!');
     }
+
+    /**
+     * @Route("/api/hello/{name}")
+     */
+    public function apiExample($name)
+    {
+        return $this->json([
+            'name' => $name,
+            'symfony' => 'rocks',
+        ]);
+    }
 }
 ?>
